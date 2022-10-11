@@ -1,1 +1,4 @@
-export * from "./src/world.ts";
+export {
+  default as ExamplePlugin,
+  ExampleExtension,
+} from "./src/ExamplePlugin.ts";
