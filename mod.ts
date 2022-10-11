@@ -1,4 +1,4 @@
 export {
-  default as ExamplePlugin,
+  default,
   ExampleExtension,
 } from "./src/ExamplePlugin.ts";
