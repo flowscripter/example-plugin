@@ -1,1 +1,1 @@
-export { default, ExampleExtension } from "./src/ExamplePlugin.ts";
+export { default, exampleExtension } from "./src/ExamplePlugin.ts";
