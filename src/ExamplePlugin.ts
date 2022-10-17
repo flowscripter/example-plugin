@@ -7,33 +7,35 @@ import {
   Plugin,
 } from "../deps.ts";
 
-export class ExampleExtension implements ExtensionPoint1 {
-  public sayHello(): void {
+export const exampleExtension: ExtensionPoint1 = {
+  sayHello: () => {
     log.info("hello world");
-  }
-}
+  },
+};
 
-class ExampleExtensionFactory implements ExtensionFactory {
-  public create(): Promise<unknown> {
-    return Promise.resolve(new ExampleExtension());
-  }
-}
+const exampleExtensionFactory: ExtensionFactory = {
+  create: () => {
+    return Promise.resolve(exampleExtension);
+  },
+};
 
-class ExampleExtensionDescriptor implements ExtensionDescriptor {
-  public extensionPoint: string = EXTENSION_POINT_1;
+const exampleExtensionDescriptor: ExtensionDescriptor = {
+  extensionPoint: EXTENSION_POINT_1,
 
-  public factory: ExtensionFactory = new ExampleExtensionFactory();
+  factory: exampleExtensionFactory,
 
-  public extensionData = new Map<string, string>([[
+  extensionData: new Map<string, string>([[
     "extension_foo",
     "extension_bar",
-  ]]);
-}
+  ]]),
+};
 
-export default class ExamplePlugin implements Plugin {
-  public extensionDescriptors: ExtensionDescriptor[] = [
-    new ExampleExtensionDescriptor(),
-  ];
+const examplePlugin: Plugin = {
+  extensionDescriptors: [
+    exampleExtensionDescriptor,
+  ],
 
-  public pluginData = new Map<string, string>([["plugin_foo", "plugin_bar"]]);
-}
+  pluginData: new Map<string, string>([["plugin_foo", "plugin_bar"]]),
+};
+
+export default examplePlugin;
