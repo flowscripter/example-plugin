@@ -1,8 +1,5 @@
 import { assertEquals } from "./test_deps.ts";
-import {
-  default as examplePlugin,
-  exampleExtension,
-} from "../mod.ts";
+import { default as examplePlugin, exampleExtension } from "../mod.ts";
 import { ExtensionPoint1 } from "../deps.ts";
 
 Deno.test("Access extension implementation via plugin", async () => {
