@@ -1,7 +1,7 @@
 # example-plugin
 
 [![version](https://img.shields.io/github/v/release/flowscripter/example-plugin?sort=semver)](https://github.com/flowscripter/example-plugin/releases)
-[![build](https://img.shields.io/github/action/workflow/status/flowscripter/example-plugin/release-deno-library.yml)](https://github.com/flowscripter/example-plugin/actions/workflows/release-deno-library.yml)
+[![build](https://img.shields.io/github/actions/workflow/status/flowscripter/example-plugin/release-deno-library.yml)](https://github.com/flowscripter/example-plugin/actions/workflows/release-deno-library.yml)
 [![coverage](https://codecov.io/gh/flowscripter/example-plugin/branch/main/graph/badge.svg?token=EMFT2938ZF)](https://codecov.io/gh/flowscripter/example-plugin)
 [![dependencies](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fupdates%2Fhttps%2Fraw.githubusercontent.com%2Fflowscripter%2Fexample-plugin%2Fmain%2Fmod.ts)](https://github.com/flowscripter/example-plugin/blob/main/deps.ts)
 [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https://deno.land/x/flowscripter_example_plugin/mod.ts)
