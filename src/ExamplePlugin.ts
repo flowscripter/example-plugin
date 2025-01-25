@@ -1,11 +1,13 @@
 import {
   EXTENSION_POINT_1,
+  type ExtensionPoint1,
+} from "@flowscripter/example-plugin-api";
+import type {
   ExtensionDescriptor,
   ExtensionFactory,
-  ExtensionPoint1,
-  log,
   Plugin,
-} from "../deps.ts";
+} from "@flowscripter/dynamic-plugin-framework";
+import * as log from "@std/log";
 
 export const exampleExtension: ExtensionPoint1 = {
   sayHello: () => {
