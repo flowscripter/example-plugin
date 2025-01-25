@@ -1,6 +1,6 @@
-import { assertEquals } from "./test_deps.ts";
+import { assertEquals } from "@std/assert";
 import { default as examplePlugin, exampleExtension } from "../mod.ts";
-import { ExtensionPoint1 } from "../deps.ts";
+import type { ExtensionPoint1 } from "@flowscripter/example-plugin-api";
 
 Deno.test("Access extension implementation via plugin", async () => {
   assertEquals(examplePlugin.pluginData?.get("plugin_foo"), "plugin_bar");
