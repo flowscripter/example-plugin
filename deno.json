@@ -1,6 +1,6 @@
 {
   "name": "@flowscripter/example-plugin",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "exports": "./mod.ts",
   "imports": {
     "@flowscripter/dynamic-plugin-framework": "jsr:@flowscripter/dynamic-plugin-framework@^1.1.6",
