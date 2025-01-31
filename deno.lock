@@ -1,8 +1,8 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@flowscripter/dynamic-plugin-framework@^1.1.6": "1.1.6",
-    "jsr:@flowscripter/example-plugin-api@^1.0.3": "1.0.3",
+    "jsr:@flowscripter/dynamic-plugin-framework@^1.1.7": "1.1.7",
+    "jsr:@flowscripter/example-plugin-api@^1.0.4": "1.0.4",
     "jsr:@std/assert@^1.0.11": "1.0.11",
     "jsr:@std/fmt@^1.0.4": "1.0.4",
     "jsr:@std/fs@^1.0.9": "1.0.9",
@@ -11,11 +11,11 @@
     "jsr:@std/log@~0.224.13": "0.224.13"
   },
   "jsr": {
-    "@flowscripter/dynamic-plugin-framework@1.1.6": {
-      "integrity": "b657bf1b8b7c95ddee52cf38247d9dae56253952891845000a2d6c3f3214d789"
+    "@flowscripter/dynamic-plugin-framework@1.1.7": {
+      "integrity": "81759dafccc609788ebe1127a66f678aed1eff62215c1a16b2e5c45be9260831"
     },
-    "@flowscripter/example-plugin-api@1.0.3": {
-      "integrity": "9394c64cc7f246695dd176a89b13be706beedb01a1d99f56c0fccaab3afb9822"
+    "@flowscripter/example-plugin-api@1.0.4": {
+      "integrity": "c7e239d7fe7c39cd234bcc6a96236deffc119a3bbd8402330a23dc901b9fd3fa"
     },
     "@std/assert@1.0.11": {
       "integrity": "2461ef3c368fe88bc60e186e7744a93112f16fd110022e113a0849e94d1c83c1",
@@ -46,8 +46,8 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@flowscripter/dynamic-plugin-framework@^1.1.6",
-      "jsr:@flowscripter/example-plugin-api@^1.0.3",
+      "jsr:@flowscripter/dynamic-plugin-framework@^1.1.7",
+      "jsr:@flowscripter/example-plugin-api@^1.0.4",
       "jsr:@std/assert@^1.0.11",
       "jsr:@std/log@~0.224.13"
     ]
