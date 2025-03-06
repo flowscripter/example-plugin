@@ -4,7 +4,7 @@ import type { ExtensionPoint1 } from "@flowscripter/example-plugin-api";
 
 describe("ExamplePlugin Tests", () => {
   test("Access extension implementation via plugin", async () => {
-    expect(examplePlugin.pluginData?.get("plugin_foo")).toEquals("plugin_bar");
+    expect(examplePlugin.pluginData?.get("plugin_foo")).toEqual("plugin_bar");
 
     const extensionDescriptor = examplePlugin.extensionDescriptors[0];
 
