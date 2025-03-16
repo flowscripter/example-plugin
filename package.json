@@ -1,5 +1,16 @@
 {
   "name": "@flowscripter/example-plugin",
+  "description": "Example plugin for the https://github.com/flowscripter/dynamic-plugin-framework",
+  "repository": "@flowscripter/example-plugin",
+  "license": "MIT",
+  "keywords": [
+    "bun",
+    "example",
+    "plugin",
+    "framework",
+    "dynamic",
+    "import"
+  ],
   "module": "index.ts",
   "type": "module",
   "version": "1.0.5",
