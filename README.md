@@ -9,16 +9,13 @@
 > Example plugin for the
 > [dynamic-plugin-framework](https://github.com/flowscripter/dynamic-plugin-framework)
 
-## Bun Module Usage
-
-Add the module:
-
-`bun add @flowscripter/example-plugin`
+## Bundled Bun Module Usage
 
 Use the module:
 
 ```typescript
-import { ExampleExtension } from "@flowscripter/example-plugin";
+import { ExampleExtension } from "";
+import { ExampleExtension } from 'https://unpkg.com/@flowscripter/example-plugin/dist/bundle.js';
 
 const extension = new ExampleExtension();
 
@@ -34,6 +31,10 @@ Install dependencies:
 Test:
 
 `bun test`
+
+Bundle for usage as a [dynamic-plugin-framework](https://github.com/flowscripter/dynamic-plugin-framework) plugin:
+
+`bun build index.ts --outdir ./dist --entry-naming bundle.js --minify`
 
 **NOTE**: The following tasks use Deno as it excels at these and Bun does not
 currently provide such functionality:
