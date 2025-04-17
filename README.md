@@ -15,7 +15,7 @@ Use the module:
 
 ```typescript
 import { ExampleExtension } from "";
-import { ExampleExtension } from 'https://unpkg.com/@flowscripter/example-plugin/dist/bundle.js';
+import { ExampleExtension } from "https://unpkg.com/@flowscripter/example-plugin/dist/bundle.js";
 
 const extension = new ExampleExtension();
 
@@ -32,7 +32,9 @@ Test:
 
 `bun test`
 
-Bundle for usage as a [dynamic-plugin-framework](https://github.com/flowscripter/dynamic-plugin-framework) plugin:
+Bundle for usage as a
+[dynamic-plugin-framework](https://github.com/flowscripter/dynamic-plugin-framework)
+plugin:
 
 `bun build index.ts --outdir ./dist --entry-naming bundle.js --minify`
 
