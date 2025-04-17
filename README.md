@@ -14,7 +14,6 @@
 Use the module:
 
 ```typescript
-import { ExampleExtension } from "";
 import { ExampleExtension } from "https://unpkg.com/@flowscripter/example-plugin/dist/bundle.js";
 
 const extension = new ExampleExtension();
