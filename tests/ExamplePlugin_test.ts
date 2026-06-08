@@ -8,14 +8,9 @@ describe("ExamplePlugin Tests", () => {
 
     const extensionDescriptor = examplePlugin.extensionDescriptors[0];
 
-    expect(
-      extensionDescriptor.extensionData?.get("extension_foo"),
-    ).toEqual(
-      "extension_bar",
-    );
+    expect(extensionDescriptor.extensionData?.get("extension_foo")).toEqual("extension_bar");
 
-    const extension = await extensionDescriptor.factory
-      .create() as ExtensionPoint1;
+    const extension = (await extensionDescriptor.factory.create()) as ExtensionPoint1;
 
     extension.sayHello();
   });
