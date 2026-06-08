@@ -1,6 +1,6 @@
 {
   "name": "@flowscripter/example-plugin",
-  "version": "1.0.13",
+  "version": "1.1.0",
   "description": "Example plugin for the https://github.com/flowscripter/dynamic-plugin-framework",
   "keywords": [
     "bun",
