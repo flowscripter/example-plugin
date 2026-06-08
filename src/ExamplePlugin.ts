@@ -1,7 +1,4 @@
-import {
-  EXTENSION_POINT_1,
-  type ExtensionPoint1,
-} from "@flowscripter/example-plugin-api";
+import { EXTENSION_POINT_1, type ExtensionPoint1 } from "@flowscripter/example-plugin-api";
 import type {
   ExtensionDescriptor,
   ExtensionFactory,
@@ -25,16 +22,11 @@ const exampleExtensionDescriptor: ExtensionDescriptor = {
 
   factory: exampleExtensionFactory,
 
-  extensionData: new Map<string, string>([[
-    "extension_foo",
-    "extension_bar",
-  ]]),
+  extensionData: new Map<string, string>([["extension_foo", "extension_bar"]]),
 };
 
 const examplePlugin: Plugin = {
-  extensionDescriptors: [
-    exampleExtensionDescriptor,
-  ],
+  extensionDescriptors: [exampleExtensionDescriptor],
 
   pluginData: new Map<string, string>([["plugin_foo", "plugin_bar"]]),
 };
