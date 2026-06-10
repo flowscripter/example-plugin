@@ -3,7 +3,7 @@ import type {
   ExtensionDescriptor,
   ExtensionFactory,
   Plugin,
-} from "@flowscripter/dynamic-plugin-framework";
+} from "@flowscripter/dynamic-plugin-framework/plugin";
 
 export const exampleExtension: ExtensionPoint1 = {
   sayHello: () => {
