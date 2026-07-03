@@ -27,6 +27,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "build": "bun build index.ts --outdir ./dist --entry-naming bundle.js --minify"            
+  },
   "dependencies": {
     "@flowscripter/dynamic-plugin-framework": "^1.6.12",
     "@flowscripter/example-plugin-api": "^1.2.17"
