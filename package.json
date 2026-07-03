@@ -28,7 +28,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun build index.ts --outdir ./dist --entry-naming bundle.js --minify"            
+    "build": "bun build index.ts --outdir ./dist --entry-naming bundle.js --minify"
   },
   "dependencies": {
     "@flowscripter/dynamic-plugin-framework": "^1.6.12",
