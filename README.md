@@ -35,7 +35,7 @@ Bundle for usage as a
 [dynamic-plugin-framework](https://github.com/flowscripter/dynamic-plugin-framework)
 plugin:
 
-`bun build index.ts --outdir ./dist --entry-naming bundle.js --minify`
+`bun run build`
 
 Format:
 
