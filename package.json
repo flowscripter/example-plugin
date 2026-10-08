@@ -31,13 +31,13 @@
     "build": "bun build index.ts --outdir ./dist --entry-naming bundle.js --minify --external \"@flowscripter/dynamic-plugin-framework\""
   },
   "dependencies": {
-    "@flowscripter/example-plugin-api": "^1.3.20"
+    "@flowscripter/example-plugin-api": "^1.3.21"
   },
   "devDependencies": {
-    "@flowscripter/dynamic-plugin-framework": "^2.2.16",
+    "@flowscripter/dynamic-plugin-framework": "^2.2.19",
     "@types/bun": "^1.4.2",
-    "oxfmt": "0.71.0",
-    "oxlint": "1.86.0"
+    "oxfmt": "0.72.0",
+    "oxlint": "1.87.0"
   },
   "peerDependencies": {
     "@flowscripter/dynamic-plugin-framework": "*",
