@@ -176,4 +176,6 @@ dist
 docs/
 /.releaserc
 bundle/
-.claude
+.claude/*
+!.claude/CLAUDE.md
+!.claude/skills/
